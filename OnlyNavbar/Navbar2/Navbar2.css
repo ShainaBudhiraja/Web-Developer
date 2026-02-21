@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color: #A67B5B;
+}
+.logo img{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.nav-links{
+    display: flex;
+    background-color: white;
+    padding: 8px;
+    border-radius: 30px;
+    color: #A67B5B;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+.hamburger{
+    font-size: large;
+    margin: 20px;
+    cursor: pointer;
+}
+.nav-links.active{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 2vw;
+    list-style: none;
+    font-weight: 600;
+}
+.right{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.icon img{
+    display: flex;
+    font-size: 18px;
+    color: #cfe9f6;
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+}
+.number{
+    display: none;
+    position:absolute;
+    top: 67px;
+    right: 70px;
+}
+.right:hover .number{
+    display: inline;
+}
+.number:hover .btn{
+    display: inline;
+    background-color: black;
+}
+.btn{
+    background-color: white;
+    color: #A67B5B;
+    border: none;
+    padding: 10px 22px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.nav-links li:hover{
+    color: white;
+    background-color: #A67B5B;
+    border-radius: 15px;
+    padding: 3px;
+}
+
+@media(min-width:768px){
+    .hamburger{
+        display: none;
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+    }
+    .nav-links{
+        display: flex;
+        flex-direction: row;
+        position: static;
+        list-style: none;
+        gap:20px;
+    }
+}
