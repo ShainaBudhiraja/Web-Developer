@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("../../DictionaryApp/src/assets/background1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 33.5rem;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+    padding: 20px;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+.heading img {
+    height: 50px;
+}
+
+.heading h1 {
+    color: black;
+    font-size: 50px;
+}
+
+.search {
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+.search img {
+    height: 25px;
+    border: none;
+}
+
+.search input {
+    padding: 10px;
+    outline: none;
+    height: 40px;
+    border: none;
+    font-size: 20px;
+}
+
+.box {
+    background: none;
+    /* background: linear-gradient(to bottom, #aff3fb,#ffffff); */
+    height: 400px;
+    width: 400px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.words {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    color: black;
+}
+
+.pronunciations h3 {
+    color: red;
+}
+
+.pronunciations span {
+    color: black;
+}
+
+.synonyms h3 {
+    color: red;
+}
+
+.synonyms span {
+    color: black;
+}
+
+.meanings h3 {
+    color: red;
+}
+
+.meanings span {
+    color: black;
+}
+
+.antonyms h3 {
+    color: red;
+}
+
+.antonyms span {
+    color: black;
+}
+
+.verbs h3 {
+    color: red;
+}
+
+.verbs span {
+    color: black;
+}
+
+.interject h3 {
+    color: red;
+}
+
+.interject span {
+    color: black;
+}
+
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.loading img {
+    width: 60px;
+}
