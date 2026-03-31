@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 200px;
+  background-color: #167e84;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+}
+
+.heading img {
+  height: 90px;
+}
+
+.heading h1 {
+  font-size: 60px;
+  color: #04282c;
+}
+
+.search {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+}
+
+.search img {
+  height: 30px;
+  border: none;
+}
+
+.search input {
+  font-size: 20px;
+  outline: none;
+  border: none;
+}
+
+.News {
+  display: flex;
+  padding: 10px;
+  gap: 30px;
+}
+
+.image-container img {
+  height: 250px;
+  width: 450px;
+  border-radius: 20px;
+}
+
+.News-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.title {
+  font-size: 25px;
+}
+
+.content {
+  font-size: 17px;
+}
+
+.url {
+  font-size: 17px;
+  color: blue;
+  cursor: pointer;
+}
